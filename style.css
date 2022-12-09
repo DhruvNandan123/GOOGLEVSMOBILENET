@@ -1,7 +1,6 @@
-p{
-    color: red;
-    letter-spacing: 1px;
-    font-size: 15px;
+body {
+    background-color: rgb(89, 142, 189);
+    font-family: 'Fjalla One', sans-serif;
 }
 span{
     letter-spacing: 1px;
@@ -10,12 +9,14 @@ span{
     letter-spacing: 2px;
 }
 .bottom{
-    color: red;
+    color: white;
     position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: grey;
+    padding: 7px;
 }
 .img{
     margin-top: 10px;
@@ -24,7 +25,7 @@ span{
     border-radius: 10px;
 }
 b{
-    color: purple;
+    color: rgb(165, 2, 165);
 }
 .first,.second{
     background-color: white;
@@ -33,7 +34,7 @@ b{
 }
 .test_image_and_result1,.test_image_and_result2,.test_image_and_result3,.test_image_and_result4,.test_image_and_result5,.test_image_and_result6,.test_image_and_result7,.test_image_and_result8,.test_image_and_result9{
     margin-top: 15px;
-    background-color: rgb(155, 153, 153);
+    background-color: rgb(0, 222, 178);
     border-radius: 10px;
     box-shadow: 1px 1px 25px grey;
     width:99%;
@@ -48,7 +49,8 @@ span{
 .google_lens{
     color: black;
 }
-h4{
+h4,h1{
     color: white;
     font-weight: bold;
 }
+
